@@ -94,8 +94,8 @@ O painel foi construído sob preceitos rígidos de visualização de dados:
 
 ## 🎯 Recomendações Práticas e Tomada de Decisão
 
-1. **Priorização de Portfólio (Shooter > Action)**: Estúdios que buscam maior previsibilidade de receita devem alocar orçamento no desenvolvimento de shooters, já que o limite inferior do IC de 95% do gênero ($0{,}83$M) supera o retorno médio de títulos de ação ($0{,}73$M).
-2. **Estratégia de Relações Públicas (PR)**: O volume de veículos avaliadores (`Critic_Count`) e a nota crítica demonstraram coeficientes altamente significativos ($p < 0{,}001$). Ações voltadas ao envio de cópias antecipadas e realização de eventos de lançamento com a imprensa especializada são fundamentais para assegurar tração inicial nas vendas.
+1. **Priorização de Portfólio (Shooter > Action):** Estúdios que procuram maior previsibilidade de receita devem alocar orçamento no desenvolvimento de *shooters*, já que o limite inferior do IC de 95% do género (0,83 milhões de cópias) supera o retorno médio de títulos de ação (0,73 milhões de cópias).
+2. **Alocação de Verba de Relações Públicas (PR & Imprensa):** O investimento na cobertura da imprensa especializada e no envio antecipado de cópias para análise tem impacto direto e quantificável sobre as vendas de lançamento, conforme comprovado pela significância estatística positiva da nota e contagem de avaliações da crítica.
 
 ---
 
