@@ -51,14 +51,14 @@ Os resultados foram sintetizados em um **dashboard interativo** construído em S
   * **Resultado**: $t = -9{,}91$ | $p\text{-valor} = 5{,}38 \times 10^{-23}$.
   * **Conclusão**: Rejeição de $H_0$. Há diferença estatisticamente significativa: a imprensa especializada tende a pontuar de forma ligeiramente mais severa (média: $70{,}31$) do que os usuários (média: $71{,}85$).
 
-* **Teste 2: Retorno Financeiro por Género (Shooter vs. Action)**
-  * **Técnica**: Teste $t$ de Student para Amostras Independentes com correção de Welch ($equal\_var = False$).
-  * **Hipóteses**: $H_0: \mu_{\text{Shooter}} = \mu_{\text{Action}}$ vs. $H_1: \mu_{\text{Shooter}} \neq \mu_{\text{Action}}$.
-  * **Resultado**: $t = 3{,}05$ | $p\text{-valor} = 0{,}0023$.
-  * **Intervalos de Confiança (95%)**:
-    * **Action**: Média de $0{,}73$M cópias | $\text{IC}_{95\%} = [0{,}66; 0{,}81]$ milhões.
-    * **Shooter**: Média de $0{,}96$M cópias | $\text{IC}_{95\%} = [0{,}83; 1{,}08]$ milhões.
-  * **Conclusão**: Rejeição de $H_0$. Títulos do género *Shooter* demonstram rentabilidade média unitária superior e estatisticamente comprovada.
+- **Teste 2: Retorno Financeiro por Gênero (Shooter vs. Action)**
+  - **Técnica:** Teste *t* de Student para Amostras Independentes com correção de Welch (`equal_var=False`).
+  - **Hipóteses:** $H_0: \mu_{\text{Shooter}} = \mu_{\text{Action}}$ vs. $H_1: \mu_{\text{Shooter}} \neq \mu_{\text{Action}}$.
+  - **Resultado:** $t = 3{,}05$ | $p$-valor = $0{,}0023$.
+  - **Intervalos de Confiança (95%):**
+    - **Action:** Média de 0,73M cópias | **IC 95% = [0,66; 0,81]** milhões de cópias.
+    - **Shooter:** Média de 0,96M cópias | **IC 95% = [0,83; 1,08]** milhões de cópias.
+  - **Conclusão:** Rejeição de $H_0$. Títulos do gênero *Shooter* demonstram rentabilidade média unitária superior e estatisticamente comprovada.
 
 ---
 
