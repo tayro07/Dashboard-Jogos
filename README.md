@@ -63,15 +63,18 @@ Os resultados foram sintetizados em um **dashboard interativo** construído em S
 ---
 
 ### 3. Modelagem Preditiva (Regressão Linear Múltipla - OLS)
+
 Modelo formulado para prever o volume de vendas mundiais (`Global_Sales`):
 
-$$\text{Global\_Sales} = \beta_0 + \beta_1 (\text{Critic\_Score}) + \beta_2 (\text{User\_Score\_100}) + \beta_3 (\text{Critic\_Count}) + \beta_4 (\text{User\_Count})$$
+$$\text{Global Sales} = \beta_0 + \beta_1(\text{Critic Score}) + \beta_2(\text{User Score 100}) + \beta_3(\text{Critic Count}) + \beta_4(\text{User Count})$$
 
-* **$R^2$ / $R^2$ Ajustado**: $0{,}127$ ($12{,}7\%$ da variância das vendas globais explicada pelo modelo).
-* **Significância Geral**: $F\text{-statistic} = 255{,}1$ ($p\text{-valor} = 6{,}16 \times 10^{-205}$).
-* **Coeficientes Principais**:
-  * $\beta_{\text{Critic\_Score}} = +0{,}0198$ ($p < 0{,}001$): cada ponto extra na avaliação da imprensa agrega cerca de $20.000$ cópias vendidas adicionais.
-  * $\beta_{\text{Critic\_Count}} = +0{,}0183$ ($p < 0{,}001$): ampla cobertura da imprensa profissional tem impacto expressivo e positivo no faturamento.
+- **$R^2$ / $R^2$ Ajustado:** 0,127 (12,7% da variância das vendas globais explicada pelo modelo).
+- **Significância Geral:** *F-statistic* = 255,1 ($p$-valor = $6{,}16 \times 10^{-205}$).
+- **Coeficientes Principais:**
+  - **$\beta_{\text{Critic Score}} = +0{,}0198$** ($p < 0{,}001$): cada ponto extra na avaliação da imprensa agrega cerca de 20.000 cópias vendidas adicionais.
+  - **$\beta_{\text{Critic Count}} = +0{,}0183$** ($p < 0{,}001$): ampla cobertura da imprensa profissional tem impacto expressivo e positivo na faturação.
+  - **$\beta_{\text{User Score 100}} = -0{,}0038$** ($p = 0{,}044$): nota do público com ligeiro coeficiente negativo no modelo multivariado.
+  - **$\beta_{\text{User Count}} = +0{,}0006$** ($p < 0{,}001$): volume de engajamento do público com impacto positivo marginal.
 
 ---
 
